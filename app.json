@@ -1,7 +1,7 @@
 {
     "name": "WikiToday",
     "description": "On this Day Api powered by Wikipedia",
-    "repository": "https://github.com/Wikifox/wikitoday",
+    "repository": "https://github.com/Wikifox/wikitoday.git",
     "logo": "https://github.com/Wikifox/wikitoday/raw/main/public/icon.png",
     "keywords": ["node", "express", "wikipedia", "wikipedia-api", "wikifox"]
 }
