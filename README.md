@@ -5,6 +5,7 @@ Wikitoday is scrapper for scrapping On-This-Day from wikipedia, made with NodeJs
 - [expressjs](https://github.com/expressjs/express)
 - [cheeriojs](https://github.com/cheeriojs/cheerio)
 - [wikifox.js](https://github.com/Wikifox/wikifox.js)
+- [axios](https://github.com/axios/axios)
 
 ## Quick jump
 - [Usage](#usage)
