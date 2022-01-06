@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "wikifox": "^1.0.8"
+  },
+  "name": "wikitoday",
+  "version": "1.0.0",
+  "description": "Wikipedia Today In History API",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikifox/wikitoday.git"
+  },
+  "keywords": [
+    "wikipedia-api"
+  ],
+  "author": "Harry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wikifox/wikitoday/issues"
+  },
+  "homepage": "https://github.com/wikifox/wikitoday#readme"
+}
