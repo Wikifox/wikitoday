@@ -1,3 +1,5 @@
+<img src="public/icon.png" width="90px">
+
 # WikiToday
 Wikitoday is scrapper for scrapping On-This-Day from wikipedia, made with NodeJs. This also supports three categories, and also customizable dates. Also has an easter egg! You will get avarage 100 events per category usually!
 
