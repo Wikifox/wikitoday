@@ -38,7 +38,7 @@ This returns all the events including birtsh, deaths, and other events if `event
 #### Example 1
 
 ```c++
-  http://localhost:8000/1/10
+  https://wiki-today.herokuapp.com/1/10
 ```
 
 ###### Response
@@ -105,7 +105,7 @@ This returns all the events including birtsh, deaths, and other events if `event
 #### Example 2
 
 ```c++
-  http://localhost:8000/births/1/10
+  https://wiki-today.herokuapp.com/births/1/10
 ```
 
 ###### Response
@@ -142,7 +142,7 @@ It's time for the Easter egg! It is the `/wiki/{title}` endpoint! It will Give y
 
 #### Example
 ```
-  http://localhost:8000/wiki/google
+ https://wiki-today.herokuapp.com/wiki/google
 ```
 
 And, you will get the response
