@@ -157,10 +157,10 @@ And, you will get the response
 
 # Deploy
 
-You can deploy this to Heroku or, Clone this project and deploy somewhere else!
+You can deploy this to Heroku or Vercel or, Clone this project and deploy somewhere else!
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWikifox%2Fwikitoday&env=PORT&project-name=wikitoday&repo-name=wiki-today-api)
 # Support
 If you want to support me, You can buy me some coffee and  ⭐ This Repo! <br>
 <br>
