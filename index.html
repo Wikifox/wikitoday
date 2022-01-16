@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+        .sub-body {
+            text-align: left;
+            justify-content: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        label,
+        input {
+            margin-bottom: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <h1>Somewhat Application Format (lol)</h1>
+        <h4>Admission to Degree Courses for academic Year 2077</h4>
+        <hr>
+    </div>
+    <div class="sub-body">
+
+
+        <form>
+            <br><label for="name">Your freaking first name</label>
+            <input type="text" name="name" class="name">
+
+            <br><label for="name">Your last name</label>
+            <input type="text" name="name" class="la-name">
+
+            <br><label for="name">Date of birth</label>
+            <input type="text" name="name" class="dob">
+
+            <br><label for="name">Fathers Name</label>
+            <input type="text" name="name" class="father">
+
+            <br><label for="name">Phone</label>
+            <input type="text" name="name" class="phone">
+
+            <br><label for="name">Email</label>
+            <input type="text" name="name" class="email">
+
+            <br><label for="name">Address</label><br>
+            <textarea class="add" cols="30" rows="10"></textarea>
+
+            <br>
+            <button class="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var gender = "IDK";
+        $(".submit").on("click", function () {
+            var text = `
+                Your First name is ${$(".name").val()}
+                Your last name is ${$(".la-name").val()}
+                Your DOB is ${$(".dob").val()}
+                Your father's name is ${$(".father").val()}
+                Your phone number is ${$(".phone").val()}
+                Your email is ${$(".email").val()}
+                Your address is ${$(".add").val()}
+            `
+            alert(text)
+            console.log(text)
+        })
+
+
+
+    </script>
+</body>
+
+</html>

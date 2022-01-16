@@ -12,7 +12,7 @@
   "description": "Wikipedia Today In History API",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon index.js"
+    "start": "nod index.js"
   },
   "repository": {
     "type": "git",
