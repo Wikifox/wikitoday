@@ -1,5 +1,5 @@
 # WikiToday
-Wikitoday is scrapper for scrapping On-This-Day from wikipedia, made with NodeJs. This also supports three categories, and also customizable dates. Also has an easter egg! You will get avarage 100 events per category usually!
+Wikitoday is scrapper for scrapping On-This-Day from wikipedia, made with NodeJs. This also supports three categories, and also customizable dates. You will get avarage 100 events per category usually!
 
 ## Made With
 - [expressjs](https://github.com/expressjs/express)
@@ -14,7 +14,6 @@ Wikitoday is scrapper for scrapping On-This-Day from wikipedia, made with NodeJs
        - [Example 1](#example-1)
        - [Example 2](#example-2)
 - [Deploy](#deploy)
-- [Easter Egg](#easter-egg)
 - [Support](#support)
 
 # Usage
@@ -132,26 +131,6 @@ This returns all the events including birtsh, deaths, and other events if `event
         "births"
     ],
     "date": "January 10"
-}
-```
-
-# Easter Egg
-It's time for the Easter egg! It is the `/wiki/{title}` endpoint! It will Give you short Information about any wikipeida Articles.
-
-#### Example
-```
-  http://localhost:8000/wiki/google
-```
-
-And, you will get the response
-```
-{
-    "title": "Wikipedia",
-    "page": 5043734,
-    "snippet": "Wikipedia (/ˌwɪkɪˈpiːdiə/ (listen) wik-ih-PEE-dee-ə or /ˌwɪki-/ (listen) wik-ee-) is a free content, multilingual online encyclopedia written and maintained",
-    "url": "http://en.wikipedia.org/?curid=5043734",
-    "status": "success",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1000px-Wikipedia-logo-v2.svg.png"
 }
 ```
 
